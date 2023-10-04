@@ -1,43 +1,59 @@
 export const Books = [
     {
         id:1,
-        title: 'The Counteroffensive',
+        author: 'Knut Hamsun',
+        title: 'Hunger',
         description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
-        category: 'Ukraine',
-        image: '../offensive.jpg',
+        category: 'Literature',
+        image: '../images/hunger.jpeg',
         priority: 1,
-        content: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
-        dateUploaded: '2023-05-26T15:30:00'
+        dateUploaded: '2023-05-26T15:30:00',
+        read: true,
+        dateStarted: '2023-05-26T15:30:00',
+        dateFinished: '2023-05-26T15:30:00',
+        pages: 250
     },
     {
         id:2,
-        title: 'China',
+        author: 'Fyodor Dostoevesky',
+        title: 'Notes from the Underground',
         description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
-        category: 'China',
-        image: '../china.jpg',
-        priority: 2,
-        content: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
-        dateUploaded: '2023-06-26T15:30:00'
+        category: 'Literature',
+        image: '../images/notesfromtheunderground.jpg',
+        priority: 1,
+        dateUploaded: '2023-05-26T15:30:00',
+        read: true,
+        dateStarted: '2023-05-26T15:30:00',
+        dateFinished: '2023-05-26T15:30:00',
+        pages: 200
     },
     {
         id:3,
-        title: 'Sudan',
+        author: 'Robert Musil',
+        title: 'The Man Without Qualities',
         description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
-        category: 'Sudan',
-        image: '../china.jpg',
-        priority: 2,
-        content: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
-        dateUploaded: '2023-07-26T15:30:00'
+        category: 'Literature',
+        image: '../images/themanwithoutqualities.jpg',
+        priority: 1,
+        dateUploaded: '2023-05-26T15:30:00',
+        read: false,
+        dateStarted: '2023-05-26T15:30:00',
+        dateFinished: '2023-05-26T15:30:00',
+        pages: 1100
     },
     {
         id:4,
-        title: 'Vietnam',
+        author: 'Mary Beard',
+        title: 'SPQR - The History of Ancient Rome',
         description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
-        category: 'china',
-        image: '../ukraine.jpg',
-        priority: 2,
-        content: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
-        dateUploaded: '2023-07-26T15:30:00'
+        category: 'Non-Fiction - History',
+        image: '../images/thehistoryofancientrome.jpg',
+        priority: 1,
+        dateUploaded: '2023-05-26T15:30:00',
+        read: true,
+        dateStarted: '2023-05-26T15:30:00',
+        dateFinished: '2023-05-26T15:30:00',
+        pages: 500
     }
 
 ]

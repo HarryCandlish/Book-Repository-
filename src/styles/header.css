@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #66CDAA;
+    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,13 +79,13 @@
   }
   
   .btn-subscribe {
-    background-color: #002D62;
+    background-color: white;
     padding: 0.5rem;
     border-radius: 10%;
   }
 
   .btn-subscribe:hover {
-    background-color: aqua;
+    background-color: silver;
   }
 
   /* ... (existing styles) */
