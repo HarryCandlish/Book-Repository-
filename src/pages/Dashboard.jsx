@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Books } from '../data/Books';
+import books from '../data/books';
+import { GoIssueClosed } from 'react-icons/go'
+import { IoIosCloseCircleOutline } from 'react-icons/io'
 
 import '../styles/dashboard.css'
 
@@ -9,14 +11,17 @@ const Dashboard = () => {
     <div>
       <table className='row-container'>
         <thead>
+          <tr>
           <th></th>
-          <th>Title</th>
-          <th>Author</th>
-          <th>Read</th>
+            <th>TITLE</th>
+            <th>AUTHOR</th>
+            <th>READ</th>
+          </tr>
         </thead>
-        {Books.map((book, index) => (
+        {books.map((book, index) => (
           <tbody key={index}>
-              <td><Link to={`book/${book.id}`}>
+            <tr>
+              <td><Link to={`/book/${book.slug}`}>
               <img
                 className='book-image'
                 src={book.image}
@@ -24,9 +29,10 @@ const Dashboard = () => {
               />
             </Link>
               </td>
-            <td>{book.title}</td>
-            <td>{book.author}</td>
-            <td>{book.read}</td>
+                  <td className='book_title'>{book.title}</td>
+                    <td>{book.author}</td>
+                  <td>{book.read === true ? <GoIssueClosed/> : <IoIosCloseCircleOutline/>}</td>
+              </tr>
             </tbody>
         ))}
       </table>

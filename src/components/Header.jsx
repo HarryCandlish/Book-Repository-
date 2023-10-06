@@ -2,12 +2,15 @@ import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 
 import Search from './Search'
-import { Books } from '../data/Books';
+import books from '../data/books';
 
 import '../styles/header.css'
 import { RxHamburgerMenu, RxCross1 } from 'react-icons/rx'
 
+
+
 const Header = () => {
+
 
    const [isOpen, setIsOpen] = useState(false);
 
@@ -19,9 +22,9 @@ const Header = () => {
     <nav className='navbar'>
       <div className='navbar-container'>
          <Link to='/' className='navbar-logo'>
-            <h1>Books</h1>
+            <h1>BOOKS</h1>
          </Link>
-         <Search className="search-bar" data={Books}/>
+         <Search className="search-bar" data={books}/>
          <div className="menu-icon" onClick={toggleMenu}>
             {isOpen ? <RxCross1/> : <RxHamburgerMenu/>}
          </div>

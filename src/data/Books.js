@@ -1,4 +1,5 @@
-export const Books = [
+const books = [
+
     {
         id:1,
         author: 'Knut Hamsun',
@@ -11,7 +12,8 @@ export const Books = [
         read: true,
         dateStarted: '2023-05-26T15:30:00',
         dateFinished: '2023-05-26T15:30:00',
-        pages: 250
+        pages: 250,
+        slug: 'hunger'
     },
     {
         id:2,
@@ -25,7 +27,8 @@ export const Books = [
         read: true,
         dateStarted: '2023-05-26T15:30:00',
         dateFinished: '2023-05-26T15:30:00',
-        pages: 200
+        pages: 200,
+        slug: 'notesfromtheunderground'
     },
     {
         id:3,
@@ -39,7 +42,8 @@ export const Books = [
         read: false,
         dateStarted: '2023-05-26T15:30:00',
         dateFinished: '2023-05-26T15:30:00',
-        pages: 1100
+        pages: 1100,
+        slug: 'themanwithoutqualities'
     },
     {
         id:4,
@@ -53,7 +57,10 @@ export const Books = [
         read: true,
         dateStarted: '2023-05-26T15:30:00',
         dateFinished: '2023-05-26T15:30:00',
-        pages: 500
+        pages: 500,
+        slug: 'thehistoryofancientrome'
     }
 
 ]
+
+export default books
